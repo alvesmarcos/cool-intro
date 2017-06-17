@@ -123,7 +123,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 btnSkip.setVisibility(View.GONE);
             } else {
                 btnNext.setText(getString(R.string.next));
-                btnSkip.setText(View.VISIBLE);
+                btnSkip.setVisibility(View.VISIBLE);
             }
         }
 
